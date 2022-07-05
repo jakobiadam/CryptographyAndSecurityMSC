@@ -1,0 +1,41 @@
+Test Data File:/home/jakobiadam/Documents/progterv/2/programozas/cryptographyAndSecurity_MSC/assignment1Challenge2NumberString.txt
+
+Type of Test                                      	P-Value             	Conclusion
+01. Frequency Test (Monobit)                      	0.07186063822585162 	Random
+02. Frequency Test within a Block                 	0.34159973041842334 	Random
+03. Run Test                                      	0.5875475347144012  	Random
+04. Longest Run of Ones in a Block                	3.9515319071901934e-07	Non-Random
+05. Binary Matrix Rank Test                       	-1.0                	Non-Random
+06. Discrete Fourier Transform (Spectral) Test    	0.005905391532593261	Non-Random
+07. Non-Overlapping Template Matching Test        	0.9997806438208291  	Random
+08. Overlapping Template Matching Test            	nan                 	Non-Random
+09. Maurer's Universal Statistical test           	-1.0                	Non-Random
+10. Linear Complexity Test                        	-1.0                	Non-Random
+11. Serial test:
+													6.193980513333234e-39	Non-Random
+													2.8726610726784846e-10	Non-Random
+12. Approximate Entropy Test                      	1.0                 	Random
+13. Cummulative Sums (Forward) Test               	0.14372114316990908 	Random
+14. Cummulative Sums (Reverse) Test               	0.1286270420485355  	Random
+15. Random Excursions Test:
+				State     	Chi Squared         	P-Value             	Conclusion
+				-4        	7.991670137442733   	0.15669530053672578 	Random
+				-3        	3.6207999999999996  	0.6051929954436529  	Random
+				-2        	30.987654320987655  	9.419970854648779e-06	Non-Random
+				-1        	16.75               	0.004999164131192691	Non-Random
+				+1        	4.75                	0.4471459016395012  	Random
+				+2        	2.6666666666666665  	0.7512117103661213  	Random
+				+3        	1.6                 	0.9012493445012736  	Random
+				+4        	1.1428571428571428  	0.9502405577506894  	Random
+16. Random Excursions Variant Test:
+				State     	COUNTS              	P-Value             	Conclusion
+				-9.0      	9                   	0.9516507699020016  	Random
+				-8.0      	10                  	0.897278961260083   	Random
+				-7.0      	14                  	0.6773916019262776  	Random
+				-6.0      	16                  	0.5464935954065822  	Random
+				-5.0      	15                  	0.5596689271994115  	Random
+				-4.0      	16                  	0.4496917979688909  	Random
+				-3.0      	23                  	0.09353251268909311 	Random
+				-2.0      	23                  	0.03038282197657749 	Random
+				-1.0      	15                  	0.08011831372763417 	Random
+				+1.0      	1                   	0.08011831372763417 	Random
